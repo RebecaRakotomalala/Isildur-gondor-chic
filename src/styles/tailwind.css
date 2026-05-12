@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+    --gondor-bg: #ede8e0;
+    --gondor-card: #ffffff;
+    --gondor-title: #6b2a10;
+    --gondor-dark: #2c2118;
+    --gondor-label: rgb(167, 95, 66);
+    --gondor-red: #903b1f;
+    --gondor-red-hover: #9b3a1a;
+    --gondor-gold: #b5813a;
+    --gondor-border: #d0c8be;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--gondor-bg);
+  }
+
+  input:focus {
+    outline: none;
+    border-color: var(--gondor-gold);
+    ring-color: var(--gondor-gold);
+  }
+}
