@@ -4,15 +4,17 @@
 
 @layer base {
     :root {
-    --gondor-bg: #ede8e0;
+    --gondor-bg: #f5f1e8;
     --gondor-card: #ffffff;
-    --gondor-title: #6b2a10;
-    --gondor-dark: #2c2118;
-    --gondor-label: rgb(167, 95, 66);
-    --gondor-red: #903b1f;
-    --gondor-red-hover: #9b3a1a;
+    --gondor-title: #5c3317;
+    --gondor-dark: #1a1a1a;
+    --gondor-label: #999999;
+    --gondor-button: #5c3317;
+    --gondor-button-hover: #4a2812;
     --gondor-gold: #b5813a;
-    --gondor-border: #d0c8be;
+    --gondor-border: #dddddd;
+    --gondor-card-top: #e8dfd0;
+    --gondor-accent-bar: #8b3a1a;
   }
 
   * {
@@ -22,7 +24,7 @@
   }
 
   body {
-    font-family: 'Lato', sans-serif;
+    font-family: Inter, system-ui, sans-serif;
     background-color: var(--gondor-bg);
   }
 

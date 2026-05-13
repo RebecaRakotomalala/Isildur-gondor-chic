@@ -3,8 +3,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Cinzel', 'Cormorant Garamond', 'serif'],
-        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        serif: ['"Playfair Display"', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
