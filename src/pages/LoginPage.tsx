@@ -101,7 +101,7 @@ const LoginPage: React.FC = () => {
           <p className="text-center text-sm">
             <a
               href="#"
-              className="italic underline-offset-2 hover:underline"
+              className="italic underline-offset-2 hover:underline" //commetaire
               style={{ color: "var(--gondor-accent-bar)" }}
             >
               mot de passe oublié ?
